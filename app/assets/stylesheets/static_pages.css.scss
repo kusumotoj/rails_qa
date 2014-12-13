@@ -1,3 +1,125 @@
-// Place all the styles related to the StaticPages controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+@charset "UTF-8";
+
+body	{font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;}
+
+/* 固定メニュー */
+.navbar {margin: 0 auto;
+		padding: 0;}
+
+
+/* 全体の枠 */
+.container {max-width: 1000px;
+			margin: 0 auto;}
+
+/* ヘッダー イメージ　メニュー*/
+#header-img	{height: 340px;
+			padding: 130px 0 0 70px;
+	        -webkit-box-sizing: border-box;
+	        -moz-box-sizing: border-box;
+			box-sizing: border-box;
+			color: #ffffff;
+			background-image: url(014.jpg);
+			background-position: 70% 60%;
+			background-size: cover;}
+
+#header-img h1 {margin: 0;
+				font-size: 35px;
+				line-height: 1;
+				font-family: serif;
+				}
+
+#header-img h1 a {text-decoration: none;}
+
+#header-img p {margin: 15px 0 0 0;
+				font-size: 25px;
+				line-height: 1;}
+
+@media (max-width: 580px) {
+	#header-img    {height: 240px;
+					padding: 100px 0 0 30px;}
+	#header-img h1 {font-size: 25px;}
+	#header-img p  {font-size: 15px;}
+}
+
+#header-menu {margin-bottom: 20px;}
+
+/* col-sm-8 */
+.col8-title {padding-left: 10px;
+			font-size: 18px;}
+
+#pickup-user {margin: 20px 0 10px 0;
+			 padding: 0;
+			 list-style: none;
+			 text-align: center;}
+
+#pickup-user li {float: left;
+				*clear: right;
+				width: 33.3333%;}
+
+#pickup-user:after {content: "";
+					display: block;
+					clear: both;}
+
+#pickup-user {*zoom: 1;}
+
+#more-user {text-align: right;}
+
+#trend {border: solid 1px #aaa;
+		border-radius: 10px;
+		margin: 20px 0;
+		padding: 40px 0;
+		text-align: center;}
+
+#search .col-xs-10 {margin-bottom: 20px;
+					padding: 0 5px 0 0;}
+
+#search .col-xs-2 {margin-bottom: 20px;}
+
+.col8-title2 {text-align: center;
+			font-size: 18px;}
+
+#archive {margin-bottom: 10px;
+		*zoom: 1;}
+
+#archive:after {content: "";
+				display: block;
+				clear: both;}
+
+.list-group a {text-decoration: none;
+			   color: #000;}
+
+.list-group .li-header {margin-bottom: 0;}
+
+.list-group .li-user-name {color: #6699ff;}
+
+.list-group .li-level {margin-left: 5px;
+						font-size: 15px;}
+
+.list-group .li-title {font-size: 17px;
+						margin: 5px;
+						padding: 0 0 0 30px;}
+
+.list-group .li-contents {margin: 5px;
+							padding: 0 0 0 30px;}
+
+/* col-sm-4 */
+#ad {border: solid 1px #aaa;
+	border-radius: 10px;
+	margin: 20px 0;
+	padding: 40px 0;
+	text-align: center;}
+
+#col4-title {text-align: center;}
+
+/* フッター */
+#footer	{padding: 20px;
+		background-color: #dfe3e8;
+		text-align: center;}
+
+#footer p	{margin: 0 0 3px 0;
+			font-size: 12px;
+			line-height: 1.4;}
+
+#footer a	{color: #666;
+			text-decoration: none;}

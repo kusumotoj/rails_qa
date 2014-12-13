@@ -61,5 +61,8 @@ module FirstApp
 
     # For Heroku
     config.assets.initialize_on_precompile = false
+
+    # For Bootstrap fonts
+    config.assets.paths << "#{Rails}/vender/assets/fonts"
   end
 end

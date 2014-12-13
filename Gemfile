@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.14'
+gem 'jquery-rails', '2.0.2'
+gem 'devise'
 
 group :development do
   gem 'sqlite3', '1.3.5'
@@ -15,8 +17,6 @@ group :assets do
   gem 'coffee-rails', '3.2.2'
   gem 'uglifier', '1.2.3'
 end
-
-gem 'jquery-rails', '2.0.2'
 
 group :test do
   gem 'capybara', '1.1.2'
